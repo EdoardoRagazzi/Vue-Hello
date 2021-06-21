@@ -7,14 +7,15 @@ const app = new Vue(
         el: '#app',
         data: {
             messaggio: 'You loaded this page on ' + new Date().toLocaleString(),
+            img: 'img/edo.png'
         }
 
     });
 
 
-var img = document.createElement("img");
+// var img = document.createElement("img");
 
-img.src = "img/edo.png";
-var src = document.getElementById("x");
+// img.src = "img/edo.png";
+// var src = document.getElementById("x");
 
-src.appendChild(img);
+// src.appendChild(img);
